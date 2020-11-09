@@ -4,7 +4,7 @@ Tool for downloading drm-encrypted content from Amazon Prime upto 1080p in CBR a
 Source code will be uploaded soon
 
 ## Usage
-Put your cookies in a file inside the "cookies" folder in the program's working directory. The cookie file should be a .txt and its name should be the region it is from, i.e. uk.txt
+Put your Amazon cookies in a file inside the "cookies" folder in the program's working directory. The cookie file should be a Netscape cookie format .txt and its name should be the region it is from, i.e. uk.txt. I recommend using the "Get cookies.txt" extension from the Chrome web store.
 
 amazondl.exe \<mode\> \<asin\> \<region\> \<resolution\> \<bitrate\> \<codec\>
 
