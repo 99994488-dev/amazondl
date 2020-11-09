@@ -1,2 +1,22 @@
 # amazondl
-Tool for downloading drm-encrypted content from Amazon Prime upto 1080p.
+Tool for downloading drm-encrypted content from Amazon Prime upto 1080p in CBR and VBR and with audio upto 640 kb/s.
+
+Source code will be uploaded soon
+
+## Usage
+Put your cookies in a file inside the "cookies" folder in the program's working directory. The cookie file should be a .txt and its name should be the region it is from, i.e. uk.txt
+
+amazondl.exe \<mode\> \<asin\> \<region\> \<resolution\> \<bitrate\> \<codec\>
+
+Regions: us, uk, jp, de, pv, pv-eu, pv-fe
+
+Bitrates: CBR, VBR
+
+Codecs: H264, H265
+
+Modes: download, license
+
+Download mode downloads, decrypts, and muxes the content, License mode gets and prints out the content keys
+
+## Example
+![gif](https://i.imgur.com/nHqTguc.gif)
