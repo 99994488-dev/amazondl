@@ -8,6 +8,7 @@ Put your Amazon cookies in a file inside the "cookies" folder in the program's w
 
 ```
 amazondl.exe <mode> <asin> <region> <resolution> <bitrate> <codec>
+amazondl.exe download B08GL1BVRT uk 1080 VBR H264
 ```
 
 Regions: us, uk, jp, de, pv, pv-eu, pv-fe
