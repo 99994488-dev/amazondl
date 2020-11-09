@@ -6,7 +6,9 @@ Source code will be uploaded soon
 ## Usage
 Put your Amazon cookies in a file inside the "cookies" folder in the program's working directory. The cookie file should be a Netscape cookie format .txt and its name should be the region it is from, i.e. uk.txt. I recommend using the "Get cookies.txt" extension from the Chrome web store.
 
-amazondl.exe \<mode\> \<asin\> \<region\> \<resolution\> \<bitrate\> \<codec\>
+```
+amazondl.exe <mode> <asin> <region> <resolution> <bitrate> <codec>
+```
 
 Regions: us, uk, jp, de, pv, pv-eu, pv-fe
 
